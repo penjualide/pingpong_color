@@ -19,7 +19,8 @@
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
 
 	<preference name="deployment-target" value="8.0" />
-	<preference name="android-minSdkVersion" value="21" />
+	<plugin name="cordova-plugin-crosswalk-webview" source="npm" />
+
 	<plugin name="cordova-plugin-wkwebview-engine" />
 	<plugin name="cordova-plugin-file" />
 	<plugin name="cordova-plugin-httpd" />
